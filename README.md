@@ -32,21 +32,34 @@ cd seu-repo
 ### 2. Criar o projeto Vite
 
 ```bash
-npm create vite@latest meu-app -- --template react
+npm create vite@latest . -- --template react
 cd meu-app
 ```
 
-### 3. Copiar os arquivos do template
+### 3. Abra o VSCODE
 
-Mova ou copie os arquivos `Dockerfile`, `docker-compose.yml` e a pasta `.devcontainer` para dentro da pasta do projeto criada pelo Vite.
+```bash
+code .
+```
 
 ### 4. Subir o container
+
+Usando o terminal do vscode
 
 ```bash
 docker-compose up --build -d
 ```
 
-### 5. Abrir no Dev Container
+### 5. Faça o teste 
+
+✅ Acessa em **http://localhost:5173**
+
+
+### 6. Instale a extensão Dev Containers 
+
+`Ctrl+Shift+X` → pesquise **Dev Containers**
+
+### 7. Abrir no Dev Container
 
 `Ctrl+Shift+P` → **Reopen in Container**
 
