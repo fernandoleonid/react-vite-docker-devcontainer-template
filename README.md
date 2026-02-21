@@ -13,7 +13,7 @@ Com este template qualquer desenvolvedor precisa apenas ter o **WSL** e o **Dock
 ## Pré-requisitos
 
 - WSL instalado
-- Docker instalado e funcionando
+- Docker instalado e funcionando — veja o guia [Como instalar o Docker no Windows | 2026 | Guia passo a passo](https://youtu.be/qrvx6ivyrQw)
 - VSCode com a extensão **Dev Containers** (ms-vscode-remote.remote-containers)
 
 ---
@@ -33,7 +33,6 @@ cd seu-repo
 
 ```bash
 npm create vite@latest . -- --template react
-cd meu-app
 ```
 
 ### 3. Abra o VSCODE
@@ -63,8 +62,6 @@ docker-compose up --build -d
 
 `Ctrl+Shift+P` → **Reopen in Container**
 
----
-
 ✅ Acessa em **http://localhost:5173**
 
 A partir daqui tudo pelo terminal do VSCode!
@@ -92,4 +89,13 @@ A partir daqui tudo pelo terminal do VSCode!
 │   └── devcontainer.json
 └── README.md
 ```
-# react-vite-docker-devcontainer-template
+
+---
+
+## Autor
+
+Criado por **Fernando Leonid**, professor e desenvolvedor apaixonado por compartilhar conhecimento.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernandoleonid/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fernandoleonid)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@fernandoleonid)
