@@ -1,4 +1,4 @@
-# React + Docker + Dev Container Template
+# React + vite + Docker + Dev Container Template
 
 ## Sobre este repositório
 
