@@ -6,8 +6,6 @@ Este repositório é um template para desenvolvimento de aplicações React util
 
 Com este template qualquer desenvolvedor precisa apenas ter o **WSL** e o **Docker** instalados para começar a trabalhar, sem necessidade de instalar o Node.js ou qualquer outra dependência diretamente na máquina.
 
-> **Autor:** Prof. Fernando Leonid
-
 ---
 
 ## Pré-requisitos
